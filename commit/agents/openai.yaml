@@ -1,4 +1,4 @@
 interface:
   display_name: "Commit"
-  short_description: "引导式完成一次 Git 提交（数字选项推进）"
-  default_prompt: "Use $commit to review current changes and complete one clean conventional commit with guided numeric choices (e.g., 1/2/3), then ask whether to push."
+  short_description: "单次 1-6 选项完成提交（可同次选择 push）"
+  default_prompt: "Use $commit to review current changes, ask one guided 1-6 choice that combines commit scope and push behavior, then auto-generate a conventional commit message without separate message confirmation."
