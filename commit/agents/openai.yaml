@@ -1,0 +1,4 @@
+interface:
+  display_name: "Commit"
+  short_description: "快速审查并完成一次 Git 提交"
+  default_prompt: "Use $commit to review current changes and create one clean commit with a conventional commit message."
