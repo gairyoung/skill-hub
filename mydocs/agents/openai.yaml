@@ -1,0 +1,4 @@
+interface:
+  display_name: "MyDocs 文档规范"
+  short_description: "统一 docs 规范与评审，保障 AI 高保真执行"
+  default_prompt: "Use $mydocs to standardize and review docs/ with arch-spec rules, AI-executable clarity, and latest-version checks outside docs/plans."
